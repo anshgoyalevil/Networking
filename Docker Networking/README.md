@@ -57,7 +57,7 @@ sudo docker run -itd --rm --network my-macvlan-network \
 --name my-macvlan-container alpine
 ```
 
-### Macvlan (802.1q)
+### Macvlan 802.1q
 
 ```bash
 sudo docker network create -d macvlan \
